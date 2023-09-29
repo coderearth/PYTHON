@@ -1,0 +1,78 @@
+#code on python
+print(2+4)
+a = ("amana waris ")
+b="amaanv123@"
+print(a.upper())
+print(a.lower())
+print(a.rstrip("e"))
+print(a.title())
+print(a.capitalize())
+print(a.swapcase())
+print(a.isspace())
+print(a.isalpha())
+print(b.isalnum())
+print(b.count("w"))
+print(a.find("a"))
+a="mango"
+print(len(a))
+print(a[0:5])
+print(a[-3:4])
+b="adnan"
+print(b[-10:2])
+c="4"
+d="5"
+print(int(c)+int(d))
+list= [68596,["amaan"],["btcs056"]]
+print(list)
+dict = {"Wame "," amaan", "age=20" , 802159 , "ameer","sameer","@@@@", "+++" }
+print(dict)
+a=input()
+b=(input())
+c=a+b
+print(int(c))
+n=int(input("enter your nubmer\n"))
+if(n<0):
+    print("num negative")
+elif(n>0):
+    if(n>0 and n<=20):
+        print("number is between 1 to 20")
+    elif(n>20):
+        print("number is greater than 20")
+else:
+    print("number is zero")
+import time 
+timestamp = time.strftime('%H:%M:%S')
+timestamp = int(time.strftime('%H'))
+##print(timestamp)
+if(4<timestamp<12):
+   print("good mrng",timestamp)
+elif(12<=timestamp<=16):
+   print("good afr",timestamp)
+##elif(00<=timestamp<=4):
+  ## print("its time to sex",timestamp)
+else:
+   print("bhai shahab so jaao")
+   
+'''
+###if(time.strftime('%H:%M:%S')<='00:00:00'):
+   print("good bbu")
+elif(time.strftime('%H:%M:%S')>='00:05:00'):
+    print("good ok bbu")
+
+import time
+name = input('Enter your name: ')
+recenttime = time.strftime('%H:%M:%S')
+Recenttime = int(time.strftime('%H'))
+c= name.capitalize()
+if(4<=Recenttime<12):
+    print('GOOD MORNING',c,'its',recenttime)
+elif(12>=Recenttime<17):
+    print('GOOD EVENING',c,'its',recenttime)
+else:
+    print('GOOD NIGHT',c,'its',recenttime)
+# print('Hii',name,'its',recenttime)
+# Morning Time : 04:00:00 to 11:59:59
+# Afternoon Time : 12:00:00 to 16:59:59
+# Evening Time : 17:00:00 to 20:59:59
+# Night Time : 21:00:00 to 03:59:59'''
+    
